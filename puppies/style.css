@@ -1,0 +1,377 @@
+
+body{
+  font: 15px/1.5 arial, helvetica, sans-serif;
+
+
+  background-color: #ffffff;
+
+}
+
+
+main{
+	margin: 0 auto;
+	max-width: 1100px;
+	padding:10px;
+	background-color:white;
+ 	margin-top: 20px;
+
+}
+.photo-sp{
+	margin-top: 80px;
+}
+.center-text{
+	text-align:center;
+}
+/*Global */
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: #4e1609;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: black 3px solid;
+
+
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 16px;
+
+
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+
+}
+header .highlight, header .Current a{
+  color: black;
+  font-weight: bold;
+
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+
+}
+
+hr {
+	margin: 60px auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media only screen and (max-width: 570px){
+	nav li{
+		line-height: 50px;
+	}
+	.photo-sp{
+		display:none;
+	}
+}
+
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('images/wood.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+
+}
+
+#showcase h1{
+  margin-top:200px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+
+h1{
+	text-align:center;
+	margin: auto;
+	font-size: 40px;
+
+}
+
+h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+p{
+	font-size: 16px;
+
+}
+
+
+
+
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+
+}
+
+
+
+
+  #orange-box{
+
+    margin: 0;  padding: 0;
+    margin: 5px;  border: 5px solid black;
+    /*padding: 3px;  background-color: brown;*/
+  }
+
+
+blockquote{
+	margin:30px;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 30%;
+
+  padding: 3px;  background-color: black;
+  }
+
+
+.col-sm-4 h3{
+    text-align:center;
+}
+
+
+.icons .fa{
+	font-size: 3em;
+    color: #CDEAF8;
+
+}
+.icons{
+    text-align:center;
+    padding: 15px 0 ;
+    color: #35cad2;
+    max-width:1200px;
+    margin:0 auto;
+
+}
+.big-3{
+	text-align:center;
+}
+
+.big-3 i.fa{
+	font-size: 6em;
+	color: #15508a;
+}
+
+button{
+	background-color: ##80000;
+	color: white;
+	padding: 3px 15px;
+	border-radius: 3px;
+}
+button:hover{
+	background-color: black;
+}
+
+
+/* Photo gallery on the home page */
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:180px;
+    margin: 3px 10px 10px 0;
+	max-width:100%;
+	height: auto;
+}
+@media only screen and (max-width: 570px){
+
+	.gallery .gallery-thumbnails{
+		text-align:center;
+	}
+	.gallery .gallery-thumbnails img{
+	    width: 150px;
+
+	}
+
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+footer{
+	clear:both;
+	background-color: #4e1609;
+	color: white;
+	border-top: 1px solid black;
+	color:white;
+	margin:40px 0 0 0;
+	display:block;
+}
+
+footer a{
+	text-decoration:none;
+}
+footer a:link{
+	color:white;
+}
+footer a:visited{
+	color:white;
+}
+footer a:hover{
+	color:#CDEAF8;
+	text-decoration: none;
+}
+footer a:active{
+	color: #eeeeee;
+}
+
+.footer-bottom{
+	background-color: black;
+	padding: 10px;
+	color: #CDEAF8;
+	text-align:center;
+	width: 100%;
+}
+
+.icons .fa{
+    color: #ffffff;
+}
+
+.footer1000{
+
+	padding: 40px 0 ;
+    color: #ffffff;
+    max-width:1000px;
+    margin:0 auto;
+
+}
+
+/* Game CSS*/
+
+canvas {
+  background-color: #f1f1f1;
+	margin:0 auto;
+	display:block;
+	background-image:url(images/clouds.jpg);
+	border: 3px solid black;
+	box-shadow: 2px 2px 6px black;
+}
+.center-text{
+	text-align:center;
+}
+.game-controls{
+	margin-top: 20px;
+	text-align:center;
+}
+/* for buttons */
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.center-game{
+	margin:0 auto;
+}
+/* for a mobile script code */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/* Resume page css */
+.myresume{
+	margin: 30px auto;
+	border: 1px solid #dddddd;
+	box-shadow: 2px 2px 2px #333333;
+	padding:30px 5%;
+	max-width: 1000px;
+  border-left: 6px solid #eee;
+	padding-left: 20px;
+
+
+}
+.myresume h1{
+	text-align: center;
+}
+.myresume h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.myresume p, .resume li{
+	font-size: 14px;
+}
